@@ -1,0 +1,15 @@
+ru/kata/spring/boot_security/demo/repo/UsersRepository.class
+ru/kata/spring/boot_security/demo/service/UserService.class
+ru/kata/spring/boot_security/demo/controller/HelloController.class
+ru/kata/spring/boot_security/demo/model/MyUser.class
+ru/kata/spring/boot_security/demo/util/UserValidator.class
+ru/kata/spring/boot_security/demo/config/WebSecurityConfig.class
+ru/kata/spring/boot_security/demo/controller/AuthController.class
+ru/kata/spring/boot_security/demo/controller/AdminController.class
+ru/kata/spring/boot_security/demo/service/RegistrationService.class
+ru/kata/spring/boot_security/demo/service/UserServiceImpl.class
+ru/kata/spring/boot_security/demo/dao/UserDao.class
+ru/kata/spring/boot_security/demo/service/MyUserDetailsService.class
+ru/kata/spring/boot_security/demo/dao/UserDaoImpl.class
+ru/kata/spring/boot_security/demo/DemoApplicationJavaApplication.class
+ru/kata/spring/boot_security/demo/security/MyUserDetails.class

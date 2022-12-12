@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>LogIn</title>
+</head>
+<body>
+<!-- Отправляет post-запрос на адрес /process_login -->
+<form name="f" method="post" action="/process_login">
+    <!-- токен генерируется автоматом для всех страниц приложения -->
+    <!-- пара name -> value -->
+    <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+
+  <label for="username">Введите имя пользователя: </label>
+  <input type="text" name="username" id="username"/>
+  <br>
+    <!-- Роле пароля, закрытое -->
+  <label for="password">Введите пароль: </label>
+  <input type="password" name="password" id="password">
+  <br/>
+  <input type="submit" value="Login"/>
+
+    <!--  Для случая ошибки, если она есть-->
+    <!--  В параметрах запроса будет ледать ключ error-->
+    <div th:if="${param.error}" style="color: red">
+        Неверный логин/пароль.
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<body>
+<div>
+  <table>
+    <thead>
+    <tr>
+      <th>id</th>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Department</th>
+      <th>Salary</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${allUsers}">
+      <td th:text="${user.getId()}"></td>
+      <td th:text="${user.getName()}"></td>
+      <td th:text="${user.getSurName()}"></td>
+      <td th:text="${user.getDepartment()}"></td>
+      <td th:text="${user.getSalary()}"></td>
+      <td>
+        <form th:action="@{'/admin/{id}/edit'(id=${user.id})}">
+          <button type="submit" th:href="@{'/admin/{id}/edit'(id=${user.id})}"
+                  th:method="UpdateUser"
+                  th:value="${user.getId()}">Update
+          </button>
+        </form>
+      </td>
+      <td>
+        <form action="#" th:method="DELETE" th:action="@{/admin}" th:object="${allUsers}">
+          <button type="submit" name="deleteRow" th:href="@{'/admin/{id}'(id=${user.id})}"
+                  th:method="deleteRow"
+                  th:value="${user.getId()}">Delete
+          </button>
+        </form>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <form action="#" th:method="POST" th:action="@{/}" th:object="${allUsers}">
+    <button type="submit" name="addUser" th:href="@{/}" th:method="addUser">Add</button>
+  </form>
+</div>
+
+</body>
+
+</body>
+</html>

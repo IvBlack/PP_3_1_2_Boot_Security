@@ -1,0 +1,15 @@
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/DemoApplicationJavaApplication.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/config/WebSecurityConfig.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/util/UserValidator.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/repo/UsersRepository.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/service/RegistrationService.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/model/MyUser.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/security/MyUserDetails.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/controller/AuthController.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/dao/UserDao.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/service/UserServiceImpl.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/dao/UserDaoImpl.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/controller/HelloController.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/controller/AdminController.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/service/UserService.java
+/home/iv/Загрузки/DemoApplicationJava/src/main/java/ru/kata/spring/boot_security/demo/service/MyUserDetailsService.java
